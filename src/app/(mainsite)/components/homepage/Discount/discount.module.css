@@ -1,0 +1,57 @@
+.believe{
+    position: relative;
+    padding: var(--section-padding-top) 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+    color: white;
+}
+
+.believe h2{
+    display: inline-block;
+    position: relative;
+    font-weight: 900;
+    font-size: 6rem;
+    
+}
+
+
+
+.believe p{
+    width: 45%;
+    padding: 1%;
+    font-size: 1.8rem;
+    line-height: 180%;
+    text-align: center;
+    font-family: var(--secondary-font);
+}
+
+
+
+
+/* SMALL LAPTOP STYLES */
+@media only screen and (min-width: 991px) and (max-width: 1400px){
+
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    
+    .believe p{
+        width: 65%;
+        padding: 2.5%;
+    }
+}
+
+ /* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .believe h2{
+        font-size: 6rem;
+    }
+    .believe p{
+        width: 65%;
+        padding: 2.5%;
+    }
+}

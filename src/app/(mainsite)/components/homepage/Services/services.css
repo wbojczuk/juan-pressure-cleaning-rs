@@ -6,13 +6,15 @@
 }
 
 #serviceContainer h2{
-    text-align: center;
+    
     font-size: 3rem;
-    padding: 1rem;
+    
 }
 
 #servicesTitle2{
+    padding: 1rem;
     font-size: 6rem;
+    text-align: center;
 }
 
 #servicesWrapper{

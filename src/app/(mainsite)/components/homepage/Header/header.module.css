@@ -97,7 +97,7 @@
     }
     
     .serving{
-        margin: 6vw 0 4vw 0;
+        margin: 8vw 0 8vw 0;
         padding: 1vw 2vw;
     }
     .serving svg{
@@ -111,6 +111,7 @@
     .textWrapper h3{
         font-size: 1.8rem;
         padding-right: 0%;
+        width: 75%;
         line-height: 180%;
         margin-bottom: 6vw;
         text-align: center;

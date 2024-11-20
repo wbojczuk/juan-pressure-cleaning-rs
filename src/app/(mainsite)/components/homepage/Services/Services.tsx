@@ -67,7 +67,7 @@ export default function Services() {
   return (
    <>
    <div id="serviceContainer">
-    <h2><span className="highlight">Our Services</span></h2>
+    <h2 id="servicesTitle2"><span className="highlight">Our Services</span></h2>
     <div id="servicesWrapper" ref={wrapperRef}>
         {serviceElems}
     </div>

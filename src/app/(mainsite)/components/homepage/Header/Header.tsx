@@ -24,6 +24,6 @@ return (
     </div>
 
     <div className="shader"></div>
-    <img src="/img/header-bg.png" alt="image of pressure washing" className="bg-img" />
+    <img src="/img/header-bg.webp" alt="image of pressure washing" className="bg-img" />
  </div>
 )};

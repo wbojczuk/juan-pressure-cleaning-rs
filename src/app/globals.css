@@ -81,6 +81,16 @@ body{
   z-index: -1;
   background-color: rgba(0,0,0,0.45);
 }
+.shader-gradient{
+  display: inline-block;
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(to right, #125990 0%, rgba(26, 117, 187, .36) 100%);
+}
 
 .center{
   display: flex;
@@ -132,7 +142,7 @@ body::-webkit-scrollbar-track {
 /* TABLET STYLES */
 @media only screen and (min-width: 650px) and (max-width: 990px){
   body{
-    padding-top: 8vw;
+    padding-top: 15vw;
   }
   :root{
     font-size: 12px;

@@ -89,7 +89,7 @@ export default function DetailsPane(props: detailsPaneProps) {
         <img src={props.img} alt="Service Image" />
         <h2 id="detailsPaneName">{props.name}</h2>
         <p id="detailsPaneDescription">{props.desc}</p>
-        <Link id="addServiceToForm" className='main-link' href='/contact'>Schedule Now</Link>
+        <Link id="addServiceToForm" className='main-link' href='/contact'>Get a Quote</Link>
       </div>
     </div>
   )

@@ -81,7 +81,7 @@ export default function Services() {
     setIsDetailsPaneOpen={setIsDetailsPaneOpen}
     isDetailsPaneOpen={isDetailsPaneOpen}
     />
-    <img src="/img/services.png" alt="image of a house" className="bg-img" />
+    <img src="/img/services.webp" alt="image of a house" className="bg-img" />
     <div className="shader" style={{backgroundColor: "rgba(228,243,255,.94)"}}></div>
    </div>
    </>
